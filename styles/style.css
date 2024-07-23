@@ -247,12 +247,14 @@ fieldset {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
-  position: absolute;
-  inset: 2px 0 0 2px;
+  display: block;
   width: 15px;
   height: 15px;
+  margin: 1px;
   background-color: white;
 }
+
+
 
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
